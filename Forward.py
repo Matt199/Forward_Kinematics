@@ -79,7 +79,10 @@ def forwardKinematics(thetha1, thetha2, thetha3):
 	c = (b2 - y1 * dnm) * (b2 - y1 * dnm) + b1 * b1 + math.pow(dnm,2) * (z1 * z1 - L * L)
 	
 	d = math.pow(b,2) - 4.0 * a * c
+    
 	if(d < 0):
+		print "Konfiguracja niemozliwa"
+
 		return -1
 	
 	x0 = -0.5 * (b + math.sqrt(d)) / a

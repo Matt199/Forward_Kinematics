@@ -42,6 +42,10 @@ t1 = float(t1)
 t2 = float(t2)
 t3 = float(t3)
 
+t1 = math.radians(t1)
+t2 = math.radians(t2)
+t3 = math.radians(t3)
+
 
 def forwardKinematics(thetha1, thetha2, thetha3):
 	x0 = 0.0

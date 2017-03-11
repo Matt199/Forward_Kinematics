@@ -12,23 +12,23 @@ import math
 
 # Defining the model value 
 
-Sb = 567.0		# Base equilateral triangle side 
+Sb = 0.567	# Base equilateral triangle side 
 
-Sp = 76.0			#Platform equilateral triangle side 
+Sp = 0.076			#Platform equilateral triangle side 
 
-L = 524.0			#Upper legs length
+L = 0.524			#Upper legs length
 
-l = 1244.0		#Lower legs parallelogram length 
+l = 1.244		#Lower legs parallelogram length 
 
-h = 131.0			#lower legs parallelogram width 
+h = 0.131			#lower legs parallelogram width 
 
-Wb = 164.0		#planar distance from {0} to near base side
+Wb = 0.164		#planar distance from {0} to near base side
 
-Ub = 327.0		#planar distance from {0} to a base vertex
+Ub = 0.327		#planar distance from {0} to a base vertex
 
-Wp = 22.0			#planar distance from {P} to near platform side
+Wp = 0.022			#planar distance from {P} to near platform side
 
-Up = 44.0			#planar distance from {P} to a platform vertex
+Up = 0.044			#planar distance from {P} to a platform vertex
 
 
 
@@ -42,9 +42,7 @@ t1 = float(t1)
 t2 = float(t2)
 t3 = float(t3)
 
-t1 = math.radians(t1)
-t2 = math.radians(t2)
-t3 = math.radians(t3)
+
 
 
 def forwardKinematics(thetha1, thetha2, thetha3):
